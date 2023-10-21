@@ -1,0 +1,20 @@
+*{
+  margin: 1%;
+  padding: 1%;
+  background-color: black;
+  color: white;
+}
+.btn{
+  border: 0cap;
+}
+.message{
+  border: 5px;
+  border-color: grey;
+  
+}
+.message::placeholder{
+  white-space:pre-line; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
